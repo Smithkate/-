@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">复利计息</view>
+  <view>
+    <input placeholder="请输入本金" type="number" bindblur="moneyNum"></input>
+    <input placeholder="请输入利率" type="number" bindblur="addNum"></input>
+  </view>
+  <view>五年后总金额为：{{sum}}</view>
+  <button type="primary" bindtap="calc">总金额</button>
+  <view class="footer">梁育桐 201923010114</view>
+  <view class="footer">移动互联网YYDS</view>
+</view>
